@@ -1,2 +1,0 @@
-# PODF-TeamMakkaraperuna
-Repository
