@@ -5,8 +5,8 @@ Try to edit this file if you need a reminder how to use git.
 
 git clone "URL"
 git status
-git add -m "viesti tähän" / git add -A
-git commit
+git add ./ git add -A
+git commit -m "viesti tähän" 
 git push
 
 git pull
