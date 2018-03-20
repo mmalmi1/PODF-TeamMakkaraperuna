@@ -1,6 +1,7 @@
 # PODF-TeamMakkaraperuna
 Repository
 saku kävi täällä
+mike myös
 
 Try to edit this file if you need a reminder how to use git.
 
