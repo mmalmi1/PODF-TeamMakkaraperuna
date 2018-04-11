@@ -7,3 +7,6 @@
 - 2 Capacitor 10 uF     587-1352-1-ND
 - 6 AA Battery
 - 1 Battery holder     BH26AASF-ND
+- 1 Slide switch
+- 1 Button
+- 1 Resistor 49.9 K ohm
