@@ -1,0 +1,9 @@
+- 1 Arduino Uno     1050-1024-ND
+- 2 H-bridge         620-1428-1-ND
+- 1 Voltage Regulator     ZLDo1117G50TA
+- 2 DC Motor         1568-1161-ND
+- 1 Ultra Sound Sensor     1568-1421-ND
+- 1 Micro servo motor     2214601
+- 2 Capacitor 10 uF     587-1352-1-ND
+- 6 AA Battery
+- 1 Battery holder     BH26AASF-ND
