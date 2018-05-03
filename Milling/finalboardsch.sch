@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.1">
+<eagle version="8.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -640,9 +640,6 @@ Area:2.1x2.35"
 Example device(s):
 Arduino Uno R3 Shield
 </description>
-<packageinstances>
-<packageinstance name="UNO_R3_SHIELD"/>
-</packageinstances>
 </package3d>
 <package3d name="UNO_R3_SHIELD_NOLABELS" urn="urn:adsk.eagle:package:37324/1" type="box" library_version="1">
 <description>Arduino Uno-Compatible Footprint
@@ -655,9 +652,6 @@ Area:2.1x2.35"
 Example device(s):
 Arduino Uno R3 Shield
 </description>
-<packageinstances>
-<packageinstance name="UNO_R3_SHIELD_NOLABELS"/>
-</packageinstances>
 </package3d>
 <package3d name="UNO_R3_SHIELD_LOCK" urn="urn:adsk.eagle:package:37327/1" type="box" library_version="1">
 <description>Arduino Uno-Compatible Footprint
@@ -671,9 +665,6 @@ Area:2.1x2.35"
 Example device(s):
 Arduino Uno R3 Shield
 </description>
-<packageinstances>
-<packageinstance name="UNO_R3_SHIELD_LOCK"/>
-</packageinstances>
 </package3d>
 <package3d name="UNO_R3_SHIELD_NOLABELS_LOCK" urn="urn:adsk.eagle:package:37325/1" type="box" library_version="1">
 <description>Arduino Uno-Compatible Footprint
@@ -687,9 +678,6 @@ Area:2.1x2.35"
 Example device(s):
 Arduino Uno R3 Shield
 </description>
-<packageinstances>
-<packageinstance name="UNO_R3_SHIELD_NOLABELS_LOCK"/>
-</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -1074,21 +1062,12 @@ Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&
 <packages3d>
 <package3d name="TO92" urn="urn:adsk.eagle:package:16416/2" type="model" library_version="2">
 <description>TO-92</description>
-<packageinstances>
-<packageinstance name="TO92"/>
-</packageinstances>
 </package3d>
 <package3d name="TO220H" urn="urn:adsk.eagle:package:16414/1" type="box" library_version="2">
 <description>TO-220</description>
-<packageinstances>
-<packageinstance name="TO220H"/>
-</packageinstances>
 </package3d>
 <package3d name="SOT223" urn="urn:adsk.eagle:package:16418/2" type="model" library_version="2">
 <description>Small Outline Transistor</description>
-<packageinstances>
-<packageinstance name="SOT223"/>
-</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -1237,30 +1216,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package3d name="0603" urn="urn:adsk.eagle:package:37414/1" type="box" library_version="1">
 <description>Generic 1608 (0603) package
 0.2mm courtyard excess rounded to nearest 0.05mm.</description>
-<packageinstances>
-<packageinstance name="0603"/>
-</packageinstances>
 </package3d>
 <package3d name="1206" urn="urn:adsk.eagle:package:37426/1" type="box" library_version="1">
 <description>Generic 3216 (1206) package
 0.2mm courtyard excess rounded to nearest 0.05mm.</description>
-<packageinstances>
-<packageinstance name="1206"/>
-</packageinstances>
 </package3d>
 <package3d name="0805" urn="urn:adsk.eagle:package:37429/1" type="box" library_version="1">
 <description>Generic 2012 (0805) package
 0.2mm courtyard excess rounded to nearest 0.05mm.</description>
-<packageinstances>
-<packageinstance name="0805"/>
-</packageinstances>
 </package3d>
 <package3d name="1210" urn="urn:adsk.eagle:package:37436/1" type="box" library_version="1">
 <description>Generic 3225 (1210) package
 0.2mm courtyard excess rounded to nearest 0.05mm.</description>
-<packageinstances>
-<packageinstance name="1210"/>
-</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -1468,9 +1435,6 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 <package3d name="332-02" urn="urn:adsk.eagle:package:6810/1" type="box" library_version="1">
 <description>2 Pin - 2mm Dual Row
 Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
-<packageinstances>
-<packageinstance name="332-02"/>
-</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -1907,89 +1871,56 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <description>Momentary Switch (Pushbutton) - SPST - PTH, 6.0mm Square
 Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
 Datasheet (B3F-1000)</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_PTH_6.0MM"/>
-</packageinstances>
 </package3d>
 <package3d name="TACTILE_SWITCH_SMD_4.5MM" urn="urn:adsk.eagle:package:40162/1" type="box" library_version="1">
 <description>Momentary Switch (Pushbutton) - SPST - SMD, 4.5mm Square
 Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
 Dimensional Drawing</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_SMD_4.5MM"/>
-</packageinstances>
 </package3d>
 <package3d name="TACTILE_SWITCH_PTH_12MM" urn="urn:adsk.eagle:package:40164/1" type="box" library_version="1">
 <description>Momentary Switch (Pushbutton) - SPST - PTH, 12mm Square
 Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
 Datasheet (B3F-5050)</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_PTH_12MM"/>
-</packageinstances>
 </package3d>
 <package3d name="TACTILE_SWITCH_SMD_6.0X3.5MM" urn="urn:adsk.eagle:package:40165/1" type="box" library_version="1">
 <description>Momentary Switch (Pushbutton) - SPST - SMD, 6.0 x 3.5 mm
 Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
 Datasheet</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_SMD_6.0X3.5MM"/>
-</packageinstances>
 </package3d>
 <package3d name="TACTILE_SWITCH_SMD_6.2MM_TALL" urn="urn:adsk.eagle:package:40172/1" type="box" library_version="1">
 <description>Momentary Switch (Pushbutton) - SPST - SMD, 6.2mm Square
 Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
 Datasheet (ADTSM63NVTR)</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_SMD_6.2MM_TALL"/>
-</packageinstances>
 </package3d>
 <package3d name="TACTILE_SWITCH_PTH_RIGHT_ANGLE_KIT" urn="urn:adsk.eagle:package:40168/1" type="box" library_version="1">
 <description>Momentary Switch (Pushbutton) - SPST - PTH, Right-angle
 Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
 Dimensional Drawing</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_PTH_RIGHT_ANGLE_KIT"/>
-</packageinstances>
 </package3d>
 <package3d name="TACTILE_SWITCH_SMD_12MM" urn="urn:adsk.eagle:package:40166/1" type="box" library_version="1">
 <description>Momentary Switch (Pushbutton) - SPST - SMD, 12mm Square
 Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
 Datasheet</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_SMD_12MM"/>
-</packageinstances>
 </package3d>
 <package3d name="TACTILE_SWITCH_PTH_6.0MM_KIT" urn="urn:adsk.eagle:package:40170/1" type="box" library_version="1">
 <description>Momentary Switch (Pushbutton) - SPST - PTH, 6.0mm Square
 Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
 Warning: This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.
 Datasheet (B3F-1000)</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_PTH_6.0MM_KIT"/>
-</packageinstances>
 </package3d>
 <package3d name="TACTILE_SWITCH_SMD_5.2MM" urn="urn:adsk.eagle:package:40167/1" type="box" library_version="1">
 <description>Momentary Switch (Pushbutton) - SPST - SMD, 5.2mm Square
 Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
 Dimensional Drawing</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_SMD_5.2MM"/>
-</packageinstances>
 </package3d>
 <package3d name="TACTILE_SWITCH_SMD_RIGHT_ANGLE" urn="urn:adsk.eagle:package:40169/1" type="box" library_version="1">
 <description>Momentary Switch (Pushbutton) - SPST - SMD, Right-angle
 Normally-open (NO) SPST momentary switches (buttons, pushbuttons).</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_SMD_RIGHT_ANGLE"/>
-</packageinstances>
 </package3d>
 <package3d name="TACTILE_SWITCH_SMD_4.6X2.8MM" urn="urn:adsk.eagle:package:40176/1" type="box" library_version="1">
 <description>Momentary Switch (Pushbutton) - SPST - SMD, 4.6 x 2.8mm
 Normally-open (NO) SPST momentary switches (buttons, pushbuttons).
 Datasheet</description>
-<packageinstances>
-<packageinstance name="TACTILE_SWITCH_SMD_4.6X2.8MM"/>
-</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -2299,30 +2230,18 @@ chip</description>
 <package3d name="R0402" urn="urn:adsk.eagle:package:970935/2" type="model" library_version="2">
 <description>RESISTOR
 chip</description>
-<packageinstances>
-<packageinstance name="R0402"/>
-</packageinstances>
 </package3d>
 <package3d name="R0603" urn="urn:adsk.eagle:package:970938/2" type="model" library_version="2">
 <description>RESISTOR
 chip</description>
-<packageinstances>
-<packageinstance name="R0603"/>
-</packageinstances>
 </package3d>
 <package3d name="R0805" urn="urn:adsk.eagle:package:970936/2" type="model" library_version="2">
 <description>RESISTOR
 chip</description>
-<packageinstances>
-<packageinstance name="R0805"/>
-</packageinstances>
 </package3d>
 <package3d name="R1206" urn="urn:adsk.eagle:package:970937/2" type="model" library_version="2">
 <description>RESISTOR
 chip</description>
-<packageinstances>
-<packageinstance name="R1206"/>
-</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -2709,116 +2628,62 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <package3d name="0204/7" urn="urn:adsk.eagle:package:13274/1" type="box" library_version="1">
 <description>RESISTOR
 type 0204, grid 7.5 mm</description>
-<packageinstances>
-<packageinstance name="0204/7"/>
-</packageinstances>
 </package3d>
 <package3d name="0207/10" urn="urn:adsk.eagle:package:13275/1" type="box" library_version="1">
 <description>RESISTOR
 type 0207, grid 10 mm</description>
-<packageinstances>
-<packageinstance name="0207/10"/>
-</packageinstances>
 </package3d>
 <package3d name="R0201" urn="urn:adsk.eagle:package:13294/1" type="box" library_version="1">
 <description>RESISTOR chip
 Source: http://www.vishay.com/docs/20008/dcrcw.pdf</description>
-<packageinstances>
-<packageinstance name="R0201"/>
-</packageinstances>
 </package3d>
 <package3d name="R0402" urn="urn:adsk.eagle:package:13296/1" type="box" library_version="1">
 <description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R0402"/>
-</packageinstances>
 </package3d>
 <package3d name="R0603" urn="urn:adsk.eagle:package:13302/1" type="box" library_version="1">
 <description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R0603"/>
-</packageinstances>
 </package3d>
 <package3d name="R0805" urn="urn:adsk.eagle:package:13300/1" type="box" library_version="1">
 <description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R0805"/>
-</packageinstances>
 </package3d>
 <package3d name="R1005" urn="urn:adsk.eagle:package:13297/1" type="box" library_version="1">
 <description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R1005"/>
-</packageinstances>
 </package3d>
 <package3d name="R1206" urn="urn:adsk.eagle:package:13301/1" type="box" library_version="1">
 <description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R1206"/>
-</packageinstances>
 </package3d>
 <package3d name="R1210" urn="urn:adsk.eagle:package:13299/1" type="box" library_version="1">
 <description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R1210"/>
-</packageinstances>
 </package3d>
 <package3d name="R1218" urn="urn:adsk.eagle:package:13303/1" type="box" library_version="1">
 <description>CRCW1218 Thick Film, Rectangular Chip Resistors
 Source: http://www.vishay.com .. dcrcw.pdf</description>
-<packageinstances>
-<packageinstance name="R1218"/>
-</packageinstances>
 </package3d>
 <package3d name="R2010" urn="urn:adsk.eagle:package:13309/1" type="box" library_version="1">
 <description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R2010"/>
-</packageinstances>
 </package3d>
 <package3d name="R2012" urn="urn:adsk.eagle:package:13306/1" type="box" library_version="1">
 <description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R2012"/>
-</packageinstances>
 </package3d>
 <package3d name="R2512" urn="urn:adsk.eagle:package:13304/1" type="box" library_version="1">
 <description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R2512"/>
-</packageinstances>
 </package3d>
 <package3d name="R3216" urn="urn:adsk.eagle:package:13305/1" type="box" library_version="1">
 <description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R3216"/>
-</packageinstances>
 </package3d>
 <package3d name="R3225" urn="urn:adsk.eagle:package:13311/1" type="box" library_version="1">
 <description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R3225"/>
-</packageinstances>
 </package3d>
 <package3d name="R4527" urn="urn:adsk.eagle:package:13310/1" type="box" library_version="1">
 <description>Package 4527
 Source: http://www.vishay.com/docs/31059/wsrhigh.pdf</description>
-<packageinstances>
-<packageinstance name="R4527"/>
-</packageinstances>
 </package3d>
 <package3d name="R5025" urn="urn:adsk.eagle:package:13308/1" type="box" library_version="1">
 <description>RESISTOR</description>
-<packageinstances>
-<packageinstance name="R5025"/>
-</packageinstances>
 </package3d>
 <package3d name="R6332" urn="urn:adsk.eagle:package:13307/1" type="box" library_version="1">
 <description>RESISTOR
 Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor/dcrcwfre.pdf</description>
-<packageinstances>
-<packageinstance name="R6332"/>
-</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -3163,7 +3028,6 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <part name="X10" library="con-garry" library_urn="urn:adsk.eagle:library:147" deviceset="332-02" device="" package3d_urn="urn:adsk.eagle:package:6810/1"/>
 <part name="X11" library="con-garry" library_urn="urn:adsk.eagle:library:147" deviceset="332-02" device="" package3d_urn="urn:adsk.eagle:package:6810/1"/>
 <part name="R2" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1"/>
-<part name="R3" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1"/>
 <part name="R4" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1"/>
 <part name="R6" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1"/>
 </parts>
@@ -3187,7 +3051,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <instance part="P+3" gate="VCC" x="-17.78" y="30.48"/>
 <instance part="A1" gate="G$1" x="40.64" y="55.88"/>
 <instance part="A2" gate="G$1" x="40.64" y="35.56"/>
-<instance part="GND2" gate="1" x="30.48" y="50.8"/>
+<instance part="GND2" gate="1" x="22.86" y="50.8"/>
 <instance part="GND3" gate="1" x="30.48" y="30.48"/>
 <instance part="X1" gate="-1" x="63.5" y="48.26"/>
 <instance part="X1" gate="-2" x="63.5" y="53.34"/>
@@ -3199,8 +3063,8 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <instance part="X4" gate="-2" x="43.18" y="66.04"/>
 <instance part="GND5" gate="1" x="30.48" y="63.5"/>
 <instance part="P+4" gate="1" x="35.56" y="83.82"/>
-<instance part="P+5" gate="1" x="63.5" y="45.72"/>
-<instance part="P+6" gate="1" x="63.5" y="25.4"/>
+<instance part="P+5" gate="1" x="78.74" y="43.18" rot="R270"/>
+<instance part="P+6" gate="1" x="78.74" y="22.86" rot="R270"/>
 <instance part="X5" gate="-1" x="43.18" y="15.24"/>
 <instance part="X5" gate="-2" x="43.18" y="10.16"/>
 <instance part="X6" gate="-1" x="43.18" y="5.08"/>
@@ -3224,7 +3088,6 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <instance part="X11" gate="-1" x="-81.28" y="27.94" rot="R180"/>
 <instance part="X11" gate="-2" x="-81.28" y="25.4" rot="R180"/>
 <instance part="R2" gate="G$1" x="-22.86" y="15.24"/>
-<instance part="R3" gate="G$1" x="-22.86" y="22.86"/>
 <instance part="R4" gate="G$1" x="-33.02" y="40.64"/>
 <instance part="R6" gate="G$1" x="-20.32" y="38.1"/>
 </instances>
@@ -3246,7 +3109,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <segment>
 <pinref part="A1" gate="G$1" pin="GND"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="38.1" y1="53.34" x2="30.48" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="53.34" x2="22.86" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="A2" gate="G$1" pin="GND"/>
@@ -3316,19 +3179,6 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <pinref part="P+4" gate="1" pin="+5V"/>
 </segment>
 <segment>
-<pinref part="A1" gate="G$1" pin="VBB"/>
-<wire x1="58.42" y1="45.72" x2="60.96" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="45.72" x2="60.96" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="P+5" gate="1" pin="+5V"/>
-<wire x1="60.96" y1="43.18" x2="63.5" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="A2" gate="G$1" pin="VBB"/>
-<wire x1="58.42" y1="25.4" x2="58.42" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="22.86" x2="63.5" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="P+6" gate="1" pin="+5V"/>
-</segment>
-<segment>
 <pinref part="P+7" gate="1" pin="+5V"/>
 <pinref part="X5" gate="-2" pin="S"/>
 <wire x1="33.02" y1="10.16" x2="40.64" y2="10.16" width="0.1524" layer="91"/>
@@ -3338,6 +3188,20 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <wire x1="5.08" y1="-5.08" x2="5.08" y2="-10.16" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="7.62" y1="-10.16" x2="5.08" y2="-10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+6" gate="1" pin="+5V"/>
+<pinref part="A2" gate="G$1" pin="VBB"/>
+<wire x1="58.42" y1="25.4" x2="58.42" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="22.86" x2="58.42" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+5" gate="1" pin="+5V"/>
+<wire x1="73.66" y1="43.18" x2="76.2" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="A1" gate="G$1" pin="VBB"/>
+<wire x1="58.42" y1="45.72" x2="58.42" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="43.18" x2="76.2" y2="43.18" width="0.1524" layer="91"/>
+<junction x="76.2" y="43.18"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -3415,15 +3279,6 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <wire x1="20.32" y1="71.12" x2="40.64" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="X3" gate="-2" pin="S"/>
-<wire x1="40.64" y1="76.2" x2="17.78" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="76.2" x2="17.78" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="B1" gate="G$1" pin="D2"/>
-<wire x1="17.78" y1="43.18" x2="12.7" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="X5" gate="-1" pin="S"/>
@@ -3454,28 +3309,7 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <net name="N$18" class="0">
 <segment>
 <pinref part="B1" gate="G$1" pin="5V"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="-12.7" y1="22.86" x2="-17.78" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$13" class="0">
-<segment>
-<pinref part="R4" gate="G$1" pin="2"/>
-<pinref part="B1" gate="G$1" pin="A4"/>
-<wire x1="-27.94" y1="40.64" x2="-12.7" y2="40.64" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="B1" gate="G$1" pin="A5"/>
-<pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="-15.24" y1="38.1" x2="-12.7" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="-27.94" y1="22.86" x2="-55.88" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-12.7" y1="22.86" x2="-55.88" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="-55.88" y1="22.86" x2="-55.88" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="X10" gate="-1" pin="S"/>
 <wire x1="-55.88" y1="30.48" x2="-55.88" y2="33.02" width="0.1524" layer="91"/>
@@ -3491,6 +3325,20 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <pinref part="X10" gate="-2" pin="S"/>
 <wire x1="-78.74" y1="30.48" x2="-55.88" y2="30.48" width="0.1524" layer="91"/>
 <junction x="-55.88" y="30.48"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="B1" gate="G$1" pin="A4"/>
+<wire x1="-27.94" y1="40.64" x2="-12.7" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="B1" gate="G$1" pin="A5"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="-15.24" y1="38.1" x2="-12.7" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -3522,6 +3370,15 @@ Source: http://download.siliconexpert.com/pdfs/2005/02/24/Semi_Ap/2/VSH/Resistor
 <wire x1="-66.04" y1="38.1" x2="-66.04" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="X11" gate="-2" pin="S"/>
 <wire x1="-66.04" y1="25.4" x2="-78.74" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="X3" gate="-2" pin="S"/>
+<pinref part="B1" gate="G$1" pin="D2"/>
+<wire x1="17.78" y1="43.18" x2="12.7" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="76.2" x2="17.78" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="76.2" x2="17.78" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
