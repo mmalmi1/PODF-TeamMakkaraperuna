@@ -12,13 +12,10 @@ int Motor2In1 = 9;
 int Motor2In1 = 10;
 //int UltSensorEcho = 3;
 
-//inputs
+
 //int UltSensorTrig = 2;
 int ButtonIn = 13;
 
-//Analog
-int InfFork1 =  5;
-int InfFork1 =  4;
 
 //init servo object
 Servo myservo;
@@ -36,6 +33,8 @@ bool wallRight = false;
 
 #define TRIG_PIN 2
 #define ECHO_PIN 3
+#define INF_FORK1 A4
+#define INF_FORK2 A5
 
 //init ultsonic object with min 20 mm , max 1500mm
 HCSR04 UltSonicSensor(TRIG_PIN, ECHO_PIN, 20, 1500);
