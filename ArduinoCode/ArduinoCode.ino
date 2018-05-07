@@ -39,7 +39,7 @@ bool wallRight = false;
 #define INF_FORK2 A5
 
 //init ultsonic object with min 20 mm , max 1500mm
-HCSR04 UltSonicSensor(TRIG_PIN, ECHO_PIN, 20, 1500);
+HCSR04 hcsr04(TRIG_PIN, ECHO_PIN, 5, 5000);
 // sonicsensor min dist in mm
 int SSMinDist = 1000;
 
@@ -56,9 +56,7 @@ void setup()
     pinMode(6,OUTPUT);
     pinMode(9,OUTPUT);
     pinMode(10,OUTPUT);
-    pinMode(3,OUTPUT);
-
-    pinMode(2, INPUT);
+ 
     pinMode(13, INPUT);
     pinMode(A5, INPUT);
     pinMode(A4, INPUT);    
@@ -66,14 +64,18 @@ void setup()
 bool IsWall(int minDist)
 {
   //Checks if wall 
-  if(UltSonicSensor.distanceInMillimeters()<= minDist)
+  int dist = hcsr04.distanceInMillimeters();
+ // Serial.println(dist);
+  if(dist <= minDist && dist > 1 )
   {
+   // Serial.print("IsWall");
     return true;
-    Serial.print("IsWall");
+    
     
   }
   else
   {
+    //Serial.print("NOWall");
     return false;
   } 
 }
@@ -100,12 +102,13 @@ int CheckServoDir(int AnglePos)
 
 void SetWallFlags()
 {
-
+  Serial.println(CheckServoDir(ServoPos));
   int wallDir = CheckServoDir(ServoPos);
   if(IsWall(SSMinDist) == true)
     {
       
       //if wall found set wall flags
+      
       if( wallDir == 1)
         {
           wallLeft = true;
@@ -114,10 +117,11 @@ void SetWallFlags()
         {
           wallForward = true;  
         }
-      else if (wallDir == 3)
+      if (wallDir == 3)
         {
-          wallRight == true;  
+          wallRight = true;  
         }  
+      
     }
   else if (IsWall(SSMinDist) == false)
     {
@@ -131,7 +135,7 @@ void SetWallFlags()
         }
       else if (wallDir == 3)
         {
-        wallRight == false;  
+          wallRight = false;  
         }     
     }
   }
@@ -139,17 +143,33 @@ void SetWallFlags()
 
 void ServoSweep()
 {
-    for(ServoPos=0; ServoPos<=180; ServoPos =+ 90)
+    for(ServoPos = 90; ServoPos<=180; ServoPos = ServoPos + 90)
     {
         myservo.write(ServoPos);
+        delay(200);
         SetWallFlags();
+        Serial.print(" ");
+        Serial.print(wallLeft);
+        Serial.print(wallForward);
+        Serial.print(wallRight);
+        Serial.println("");
+        
+        //Serial.println(ServoPos);
+        
         delay(500);
     } 
     
-    for(ServoPos=180; ServoPos >= 0; ServoPos =- 90)
+    for(ServoPos = 90; ServoPos >= 0; ServoPos = ServoPos - 90)
     {
         myservo.write(ServoPos);
+        delay(200);
         SetWallFlags();
+        Serial.print(" ");
+        Serial.print(wallLeft);
+        Serial.print(wallForward);
+        Serial.print(wallRight);
+        Serial.println("");
+        
         delay(500);  
     }  
     
@@ -174,6 +194,9 @@ void TurnFromWall(int WallDir)
 
 void loop() 
 {
+  //Serial.println(hcsr04.distanceInMillimeters());
+ ServoSweep();
   
-
+  
+  //IsWall(1000);
 }
