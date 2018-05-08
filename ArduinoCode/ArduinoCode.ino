@@ -48,18 +48,30 @@ int SSMinDist = 1000;
 void setup()
   {
     Serial.begin(9600);
+    //InitTimersSafe();
 
     myservo.attach(ServoPin);
     
-    pinMode(11,OUTPUT);
+    //SetPinFrequencySafe(Motor1In1, 450);
+   // SetPinFrequencySafe(Motor1In2, 35);
+
     pinMode(5,OUTPUT);
     pinMode(6,OUTPUT);
+    
+    
+    pinMode(11,OUTPUT);
+   
     pinMode(9,OUTPUT);
     pinMode(10,OUTPUT);
  
     pinMode(13, INPUT);
     pinMode(A5, INPUT);
-    pinMode(A4, INPUT);    
+    pinMode(A4, INPUT);  
+
+    digitalWrite(5,HIGH);
+    digitalWrite(6,LOW);
+
+  
   }
 bool IsWall(int minDist)
 {
@@ -112,14 +124,19 @@ void SetWallFlags()
       if( wallDir == 1)
         {
           wallLeft = true;
+		  currentWall = 1;
         }
       else if (wallDir == 2)
         {
-          wallForward = true;  
+			wallForward = true;
+			//stop
+			//turn opposite of current wall 1->3, 3->1
+			//continue loop
         }
       if (wallDir == 3)
         {
-          wallRight = true;  
+          wallRight = true;
+		  currentWall = 3;
         }  
       
     }
@@ -147,30 +164,36 @@ void ServoSweep()
     {
         myservo.write(ServoPos);
         delay(200);
+      
         SetWallFlags();
+		
         Serial.print(" ");
         Serial.print(wallLeft);
         Serial.print(wallForward);
         Serial.print(wallRight);
         Serial.println("");
         
+        
         //Serial.println(ServoPos);
         
-        delay(500);
+        delay(250);
     } 
     
     for(ServoPos = 90; ServoPos >= 0; ServoPos = ServoPos - 90)
     {
         myservo.write(ServoPos);
         delay(200);
+     
         SetWallFlags();
+		
         Serial.print(" ");
         Serial.print(wallLeft);
         Serial.print(wallForward);
         Serial.print(wallRight);
         Serial.println("");
         
-        delay(500);  
+        delay(250);  
+        
     }  
     
 }
@@ -194,9 +217,14 @@ void TurnFromWall(int WallDir)
 
 void loop() 
 {
+
+ //pwmWrite(Motor1In1,100);
   //Serial.println(hcsr04.distanceInMillimeters());
- ServoSweep();
+  //delay(1000);
+ //myservo.write(90);
+ //ServoSweep();
+ //if wall flags are 000 stop and turn towards current wall
   
-  
+  //myservo.write(90);
   //IsWall(1000);
 }
