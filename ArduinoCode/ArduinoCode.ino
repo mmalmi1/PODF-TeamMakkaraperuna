@@ -92,6 +92,45 @@ bool IsWall(int minDist)
   } 
 }
 
+void TurnLeft(int speed)
+  {
+    //add pwm
+    analogWrite(5,speed);
+    analogWrite(10,speed);
+    // adjust delay
+    
+    delay (1500);
+
+    analogWrite(5,0);
+    analogWrite(10,0);
+    
+    //turn left 
+  }
+void TurnRight(int speed)
+  {
+    analogWrite(6,speed);
+    analogWrite(9,speed);
+    // adjust delay
+    
+    delay (1500);
+
+    analogWrite(6,0);
+    analogWrite(9,0);
+     //turn right
+  } 
+ void GoForward(int speed)
+	{
+		analogWrite(5,speed);
+		analogWrite(9,speed);
+	}
+void Stop()
+	{
+		digitalWrite(5,0);
+		digitalWrite(6,0);
+		digitalWrite(9,0);
+		digitalWrite(10,0);
+	}
+
 
 int CheckServoDir(int AnglePos)
 {
@@ -111,7 +150,19 @@ int CheckServoDir(int AnglePos)
     }  
 }
 
-
+void AvoidObs()
+  {
+    if (wallLeft == 0)
+            {
+              TurnLeft(100);
+              //forward
+            }
+          else if(wallRight == 0)
+            {
+              TurnRight(100);
+              //forward
+            } 
+  }
 void SetWallFlags()
 {
   Serial.println(CheckServoDir(ServoPos));
@@ -128,9 +179,10 @@ void SetWallFlags()
         }
       else if (wallDir == 2)
         {
-			wallForward = true;
+		    	wallForward = true;
 			//stop
-			//turn opposite of current wall 1->3, 3->1
+			//if wall left == 0, turn left / if wallright == 0, turn right
+          
 			//continue loop
         }
       if (wallDir == 3)
@@ -199,20 +251,6 @@ void ServoSweep()
 }
 
 
-
-
-
-void TurnFromWall(int WallDir)
-{
-  if(WallDir == 1)
-    {
-       //turn to dir 3
-    }
-  else if(WallDir == 3)
-    {
-      //turn to dir 1
-    }
-}
   
 
 void loop() 
