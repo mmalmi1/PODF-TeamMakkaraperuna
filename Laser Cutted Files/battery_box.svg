@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg835"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="battery_box.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="278.38647"
+     inkscape:cy="478.51609"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <defs
+     id="defs829" />
+  <metadata
+     id="metadata832">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Taso 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-87)">
+    <path
+       id="path1742"
+       style="fill:none;stroke:#000000;stroke-width:0.02;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 129.94872,168.97791 a 2.9956858,2.9956858 0 0 1 -2.99569,2.99568 2.9956858,2.9956858 0 0 1 -2.99568,-2.99568 2.9956858,2.9956858 0 0 1 2.99568,-2.99569 2.9956858,2.9956858 0 0 1 2.99569,2.99569 z M 44.535714,128.60417 v -5.75167 h 3 v -5.83 h -3 v -8.83667 h 3 v -5.83 h -3 v -5.751663 m 99.999996,32.000003 h -7.165 v 3 h -6.17 v -3 h -7.08 v 3 h -6.17 v -3 h -7.08 v 3 h -6.17 v -3 h -7.079996 v 3 h -6.17 v -3 h -7.08 v 3 h -6.17 v -3 h -7.08 v 3 h -6.17 v -3 h -7.08 v 3 h -6.17 v -3 h -7.165 M 144.53571,96.604167 v 5.751663 h -3 v 5.83 h 3 v 8.83667 h -3 v 5.83 h 3 v 5.75167 M 44.535714,96.604167 h 7.165 v -3 h 6.17 v 3 h 7.08 v -3 h 6.17 v 3 h 7.08 v -3 h 6.17 v 3 h 7.08 v -3 h 6.17 v 3 h 7.079996 v -3 h 6.17 v 3 h 7.08 v -3 h 6.17 v 3 h 7.08 v -3 h 6.17 v 3 h 7.165 m 40,88.000003 v -8.585 h 3 v -5.83 h -3 v -8.67 h 3 v -5.83 h -3 v -8.67 h 3 v -5.83 h -3 v -8.585 m 100,52 h -7.335 v -3 h -5.83 v 3 h -7.42 v -3 h -5.83 v 3 h -7.42 v -3 h -5.83 v 3 h -7.42 v -3 h -5.83 v 3 h -7.42 v -3 h -5.83 v 3 h -7.42 v -3 h -5.83 v 3 h -7.42 v -3 h -5.83 v 3 h -7.335 m 100,-52 v 8.585 h -3 v 5.83 h 3 v 8.67 h -3 v 5.83 h 3 v 8.67 h -3 v 5.83 h 3 v 8.585 m -100,-52 h 7.335 v 3 h 5.83 v -3 h 7.42 v 3 h 5.83 v -3 h 7.42 v 3 h 5.83 v -3 h 7.42 v 3 h 5.83 v -3 h 7.42 v 3 h 5.83 v -3 h 7.42 v 3 h 5.83 v -3 h 7.42 v 3 h 5.83 v -3 h 7.335 m -136,49 v -5.415 h -3 v -6.17 h 3 v -8.33 h -3 v -6.17 h 3 v -8.33 h -3 v -6.17 h 3 v -5.415 m 32,46 h -5.58167 v 3 h -6.17 v -3 h -8.49666 v 3 h -6.17 v -3 h -5.58167 m 32,-46 v 5.415 h 3 v 6.17 h -3 v 8.33 h 3 v 6.17 h -3 v 8.33 h 3 v 6.17 h -3 v 5.415 m -32,-46 h 5.58167 v -3 h 6.17 v 3 h 8.49666 v -3 h 6.17 v 3 h 5.58167 m -135.999996,49 v -8.585 h 3 v -5.83 h -3 v -8.67 h 3 v -5.83 h -3 v -8.67 h 3 v -5.83 h -3 v -8.585 m 99.999996,52 h -7.335 v -3 h -5.83 v 3 h -7.42 v -3 h -5.83 v 3 h -7.42 v -3 h -5.83 v 3 h -7.419996 v -3 h -5.83 v 3 h -7.42 v -3 h -5.83 v 3 h -7.42 v -3 h -5.83 v 3 h -7.42 v -3 h -5.83 v 3 h -7.335 m 99.999996,-52 v 8.585 h -3 v 5.83 h 3 v 8.67 h -3 v 5.83 h 3 v 8.67 h -3 v 5.83 h 3 v 8.585 m -99.999996,-52 h 7.335 v 3 h 5.83 v -3 h 7.42 v 3 h 5.83 v -3 h 7.42 v 3 h 5.83 v -3 h 7.42 v 3 h 5.83 v -3 h 7.419996 v 3 h 5.83 v -3 h 7.42 v 3 h 5.83 v -3 h 7.42 v 3 h 5.83 v -3 h 7.335 m -135.9999957,49 v -5.415 h -3 v -6.17 h 3 v -8.33 h -3 v -6.17 h 3 v -8.33 h -3 v -6.17 h 3 v -5.415 m 31.9999997,46 h -5.581667 v 3 h -6.17 v -3 h -8.496666 v 3 h -6.17 v -3 H 8.5357143 m 31.9999997,-46 v 5.415 h 3 v 6.17 h -3 v 8.33 h 3 v 6.17 h -3 v 8.33 h 3 v 6.17 h -3 v 5.415 m -31.9999997,-46 h 5.5816667 v -3 h 6.17 v 3 h 8.496666 v -3 h 6.17 v 3 h 5.581667 m 4,85 v -5.75167 h 3 v -5.83 h -3 v -8.83666 h 3 v -5.83 h -3 v -5.75167 m 99.999996,32 h -7.165 v 3 h -6.17 v -3 h -7.08 v 3 h -6.17 v -3 h -7.08 v 3 h -6.17 v -3 h -7.079996 v 3 h -6.17 v -3 h -7.08 v 3 h -6.17 v -3 h -7.08 v 3 h -6.17 v -3 h -7.08 v 3 h -6.17 v -3 h -7.165 m 99.999996,-32 v 5.75167 h -3 v 5.83 h 3 v 8.83666 h -3 v 5.83 h 3 v 5.75167 m -99.999996,-32 h 7.165 v -3 h 6.17 v 3 h 7.08 v -3 h 6.17 v 3 h 7.08 v -3 h 6.17 v 3 h 7.08 v -3 h 6.17 v 3 h 7.079996 v -3 h 6.17 v 3 h 7.08 v -3 h 6.17 v 3 h 7.08 v -3 h 6.17 v 3 h 7.165" />
+  </g>
+  <g
+     inkscape:label="newlayer"
+     inkscape:groupmode="layer"
+     id="g1496" />
+  <g
+     id="g1677"
+     inkscape:groupmode="layer"
+     inkscape:label="newlayer" />
+</svg>

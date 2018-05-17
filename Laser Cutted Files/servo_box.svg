@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="servo_box.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="112.00697"
+     inkscape:cy="1009.4553"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:measure-start="256.071,1084.29"
+     inkscape:measure-end="34.0157,1012.91" />
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Taso 1">
+    <path
+       id="path1227"
+       style="stroke:#000000;stroke-width:0.02;fill:none;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 4,29 v -1.248333 0 -3.17 0 -4.163334 0 -3.17 0 V 16 M 9,29 H 8.085 v 3 H 4.915 V 29 H 4 M 9,16 v 1.248333 0 3.17 0 4.163334 0 3.17 0 V 29 M 4,16 h 0.915 v -3 h 3.17 v 3 H 9 M 13,9 V 7.915 h 3 V 5.085 H 13 V 4 m 29,5 h -3.315 v 0 h -3.17 v 0 h -3.23 v 0 h -3.17 v 0 h -3.23 v 0 h -3.17 v 0 h -3.23 v 0 h -3.17 V 9 H 13 M 42,4 v 1.085 h -3 v 2.83 h 3 V 9 M 13,4 h 3.315 v 0 h 3.17 v 0 h 3.23 v 0 h 3.17 v 0 h 3.23 v 0 h 3.17 v 0 h 3.23 v 0 h 3.17 V 4 H 42 m 4,25 v -1.248333 0 -3.17 0 -4.163334 0 -3.17 0 V 16 m 5,13 h -0.915 v 3 h -3.17 V 29 H 46 m 5,-13 v 1.248333 0 3.17 0 4.163334 0 3.17 0 V 29 M 46,16 h 0.915 v -3 h 3.17 v 3 H 51 M 13,41 v -1.085 h 3 v -2.83 H 13 V 36 m 29,5 h -3.315 v 0 h -3.17 v 0 h -3.23 v 0 h -3.17 v 0 h -3.23 v 0 h -3.17 v 0 h -3.23 v 0 h -3.17 v 0 H 13 m 29,-5 v 1.085 h -3 v 2.83 h 3 V 41 M 13,36 h 3.315 v 0 h 3.17 v 0 h 3.23 v 0 h 3.17 v 0 h 3.23 v 0 h 3.17 v 0 h 3.23 v 0 h 3.17 v 0 H 42" />
+  </g>
+  <g
+     id="g917"
+     inkscape:groupmode="layer"
+     inkscape:label="newlayer" />
+  <g
+     inkscape:label="newlayer"
+     inkscape:groupmode="layer"
+     id="g1074" />
+  <g
+     id="g1232"
+     inkscape:groupmode="layer"
+     inkscape:label="newlayer" />
+</svg>
