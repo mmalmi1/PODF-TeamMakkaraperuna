@@ -41,7 +41,7 @@ bool wallRight = false;
 //init ultsonic object with min 20 mm , max 1500mm
 HCSR04 hcsr04(TRIG_PIN, ECHO_PIN, 5, 5000);
 // sonicsensor min dist in mm
-int SSMinDist = 1000;
+int SSMinDist = 1000 ;
 
 
 
@@ -68,8 +68,6 @@ void setup()
     pinMode(A5, INPUT);
     pinMode(A4, INPUT);  
 
-    digitalWrite(5,HIGH);
-    digitalWrite(6,LOW);
 
   
   }
@@ -99,7 +97,7 @@ void TurnLeft(int speed)
     analogWrite(10,speed);
     // adjust delay
     
-    delay (1500);
+    delay (1000);
 
     analogWrite(5,0);
     analogWrite(10,0);
@@ -112,7 +110,7 @@ void TurnRight(int speed)
     analogWrite(9,speed);
     // adjust delay
     
-    delay (1500);
+    delay (1000);
 
     analogWrite(6,0);
     analogWrite(9,0);
@@ -165,23 +163,43 @@ void AvoidObs()
   }
 void SetWallFlags()
 {
-  Serial.println(CheckServoDir(ServoPos));
+  //Serial.println(CheckServoDir(ServoPos));
   int wallDir = CheckServoDir(ServoPos);
+  //GoForward(255);
   if(IsWall(SSMinDist) == true)
     {
       
       //if wall found set wall flags
       
+	  
       if( wallDir == 1)
         {
           wallLeft = true;
-		  currentWall = 1;
+		      currentWall = 1;
         }
       else if (wallDir == 2)
         {
 		    	wallForward = true;
-			//stop
-			//if wall left == 0, turn left / if wallright == 0, turn right
+				  Stop();
+		    	//stop
+			    //if wall left == 0, turn left / if wallright == 0, turn right
+				  if(wallLeft == false)
+					{
+						
+						TurnLeft(255);
+						delay(1000);
+						
+					}
+         /*
+				else if(wallLeft == true and wallRight == false)
+					{
+						
+						TurnRight(255);
+						delay(1000);
+						
+					}
+         */
+          wallForward = false;
           
 			//continue loop
         }
@@ -248,6 +266,7 @@ void ServoSweep()
         
     }  
     
+    
 }
 
 
@@ -255,14 +274,24 @@ void ServoSweep()
 
 void loop() 
 {
-
- //pwmWrite(Motor1In1,100);
-  //Serial.println(hcsr04.distanceInMillimeters());
-  //delay(1000);
- //myservo.write(90);
- //ServoSweep();
- //if wall flags are 000 stop and turn towards current wall
-  
-  //myservo.write(90);
-  //IsWall(1000);
+	/*
+    GoForward(255);
+    delay(1000);
+    TurnRight(255);
+    delay(1000);
+    GoForward(255);
+    delay(1000);
+    Stop();
+    
+    while(true);
+	*/
+    
+   ServoSweep();
+   GoForward(255);
+   
+   
+   //myservo.write(0);
+   //Serial.println(hcsr04.distanceInMillimeters());
+   
+ 
 }
