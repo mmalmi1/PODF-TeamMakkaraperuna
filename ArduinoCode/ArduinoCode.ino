@@ -39,7 +39,7 @@ bool wallRight = false;
 #define INF_FORK2 A5
 
 //init ultsonic object with min 20 mm , max 1500mm
-HCSR04 hcsr04(TRIG_PIN, ECHO_PIN, 5, 5000);
+HCSR04 hcsr04(TRIG_PIN, ECHO_PIN, 5, 15000);
 // sonicsensor min dist in mm
 int SSMinDist = 1000 ;
 
@@ -78,7 +78,7 @@ bool IsWall(int minDist)
  // Serial.println(dist);
   if(dist <= minDist && dist > 1 )
   {
-   // Serial.print("IsWall");
+   Serial.print("IsWall");
     return true;
     
     
@@ -97,8 +97,8 @@ void TurnLeft(int speed)
     analogWrite(10,speed);
     // adjust delay
     
-    delay (1000);
-
+    delay (600);
+    Serial.println("Turning Left!");
     analogWrite(5,0);
     analogWrite(10,0);
     
@@ -110,7 +110,8 @@ void TurnRight(int speed)
     analogWrite(9,speed);
     // adjust delay
     
-    delay (1000);
+    delay (400);
+    Serial.println("Turning Left!");
 
     analogWrite(6,0);
     analogWrite(9,0);
@@ -118,11 +119,17 @@ void TurnRight(int speed)
   } 
  void GoForward(int speed)
 	{
-		analogWrite(5,speed);
+    //int speed2 = 225;
+		analogWrite(5,200);
 		analogWrite(9,speed);
 	}
 void Stop()
 	{
+    digitalWrite(5,1);
+    digitalWrite(6,1);
+    digitalWrite(9,1);
+    digitalWrite(10,1);
+    delay(100);
 		digitalWrite(5,0);
 		digitalWrite(6,0);
 		digitalWrite(9,0);
@@ -183,13 +190,11 @@ void SetWallFlags()
 				  Stop();
 		    	//stop
 			    //if wall left == 0, turn left / if wallright == 0, turn right
-				  if(wallLeft == false)
-					{
+				  
 						
 						TurnLeft(255);
-						delay(1000);
+						delay(500);
 						
-					}
          /*
 				else if(wallLeft == true and wallRight == false)
 					{
@@ -242,11 +247,13 @@ void ServoSweep()
         Serial.print(wallForward);
         Serial.print(wallRight);
         Serial.println("");
+
+        delay(200);
         
         
         //Serial.println(ServoPos);
         
-        delay(250);
+        //delay(250);
     } 
     
     for(ServoPos = 90; ServoPos >= 0; ServoPos = ServoPos - 90)
@@ -261,8 +268,9 @@ void ServoSweep()
         Serial.print(wallForward);
         Serial.print(wallRight);
         Serial.println("");
+        delay(200);
         
-        delay(250);  
+       // delay(250);  
         
     }  
     
@@ -291,7 +299,7 @@ void loop()
    
    
    //myservo.write(0);
-   //Serial.println(hcsr04.distanceInMillimeters());
+   Serial.println(hcsr04.distanceInMillimeters());
    
  
 }
